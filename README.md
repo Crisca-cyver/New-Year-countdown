@@ -33,7 +33,7 @@ Check out the live demo: [New Year Countdown](https://super-meerkat-3d410f.netli
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/new-year-countdown.git
+   git clone https://github.com/Crisca-cyver/new-year-countdown.git
    cd new-year-countdown
    ```
 
