@@ -33,11 +33,11 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-900 to-black text-white flex flex-col items-center justify-center p-4" role="main">
-      <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center" id="main-heading">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-gray-900 to-black text-white flex flex-col items-center justify-center p-4" role="main">
+      <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent" id="main-heading">
         New Year Countdown
       </h1>
-      <Calendar className="w-16 h-16 mb-8 text-blue-400" aria-hidden="true" />
+      <Calendar className="w-16 h-16 mb-8 text-yellow-400" aria-hidden="true" />
       <Countdown timeLeft={timeLeft} />
       <Footer />
     </div>
